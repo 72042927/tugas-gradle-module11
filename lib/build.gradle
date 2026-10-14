@@ -27,9 +27,5 @@ java {
     }
 }
 
-tasks.named('test') {
-    // Use JUnit Platform for unit tests.
-    useJUnitPlatform()
-}
 
 
