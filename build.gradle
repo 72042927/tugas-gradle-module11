@@ -1,0 +1,9 @@
+
+tasks.register('greetingTask') {
+    def nama = providers.gradleProperty('nama')
+            .orElse('Gradle User')
+
+    doLast {
+        println "Hello, ${nama.get()}! Welcome to Gradle World!"
+    }
+}
